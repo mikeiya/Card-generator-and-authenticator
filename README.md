@@ -12,7 +12,7 @@ card number using Django.
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/TaiwoTech/Card-generator-and-authenticator.git
 ```
 
 Install the requirements:
