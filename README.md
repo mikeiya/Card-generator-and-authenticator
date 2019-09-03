@@ -37,12 +37,15 @@ The project will be available at **127.0.0.1:8000**.
 
 ## Accessing the card validation endpoint from local machine
 E.g:
+```bash
 http://127.0.0.1:8000/credit_auth/?card_number=(8398393939434) <---- number to authenticate.
 http://127.0.0.1:8000/credit_auth/?card_number=8398393939434
-
+```
 ## Accessing the valid card number generator endpoint from local machine, this only works for visa,amex and mastercard.
 E.g:
+```bash
 http://127.0.0.1:8000/credit_gen/?visa=(3)<---- number of cards to generate of type visa.
 http://127.0.0.1:8000/credit_gen/?amex=30 ---> returns 30 amex cards.
 http://127.0.0.1:8000/credit_gen/?mastercard=1 ---> returns 1 mastercard.
 http://127.0.0.1:8000/credit_gen/    ----> returns a valid card number of type visa,amex or mastercard.
+```
