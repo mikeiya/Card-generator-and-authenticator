@@ -35,12 +35,12 @@ python manage.py runserver
 
 The project will be available at **127.0.0.1:8000**.
 
-#Accessing the card validation endpoint from local machine
+## Accessing the card validation endpoint from local machine
 E.g:
 http://127.0.0.1:8000/credit_auth/?card_number=(8398393939434) <---- number to authenticate.
 http://127.0.0.1:8000/credit_auth/?card_number=8398393939434
 
-#Accessing the valid card number generator endpoint from local machine, this only works for visa,amex and mastercard.
+## Accessing the valid card number generator endpoint from local machine, this only works for visa,amex and mastercard.
 E.g:
 http://127.0.0.1:8000/credit_gen/?visa=(3)<---- number of cards to generate of type visa.
 http://127.0.0.1:8000/credit_gen/?amex=30 ---> returns 30 amex cards.
