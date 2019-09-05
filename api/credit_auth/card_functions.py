@@ -115,6 +115,8 @@ def card_is_valid(card_numbers):
     a simple checksum to verify card_number
     and returns the check_digit
     """
+    if len(card_number) < 13 or len(card_number) > 16:
+        return False,0
     nSum = 0
     isSecond = False
     for  i in card_numbers[::-1]:
