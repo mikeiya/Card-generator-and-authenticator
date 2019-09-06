@@ -121,7 +121,7 @@ def card_is_valid(card_numbers):
         try:
             digit = int(i)
         except:
-            return False
+            return False,0
         if isSecond == True:
             digit *= 2
         #add two digits to handle
