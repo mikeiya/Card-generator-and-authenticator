@@ -6,6 +6,8 @@ a better card_iin and card_mii method would use
 REGEX to match the start of the card_number
 and find the matching key-value pair in mii_list and
 nii_list respectively
+
+generate_card funcion not fully tested or revised
 """
 from random import randint,choice
 
