@@ -1,7 +1,7 @@
-Django==2.2.4
+Django>=2.2.9
 djangorestframework==3.10.2
 pytest==4.1.1
-requests==2.11.1
+requests>=2.11.1
 webargs==5.4.0
 Werkzeug==0.11.11
 
